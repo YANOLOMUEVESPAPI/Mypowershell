@@ -1,0 +1,9 @@
+$horas = Read-Host "Ingresa el número de horas trabajadas"
+$horas = [double]$horas
+
+$costoHora = Read-Host "Ingresa el costo por hora"
+$costoHora = [double]$costoHora
+
+$pagaTotal = $horas * $costoHora
+
+Write-Host "La paga que le corresponde es: $pagaTotal"
